@@ -1,4 +1,3 @@
-
 import express from 'express';
 import TelegramBot from 'node-telegram-bot-api';
 import bodyParser from 'body-parser';
@@ -11,8 +10,10 @@ const token = process.env.TOKEN;
 const port = process.env.PORT || 3000;
 
 // Initialize the bot in webhook mode
-const bot = new TelegramBot(token);
-bot.setWebHook(`https://render.com//bitscurrent/solutionhub/bot${token}`);
+const bot = new TelegramBot(token, { webHook: true });
+
+// Set webhook to Render domain
+bot.setWebHook(`https://solutionhub-b9uh.onrender.com/bot${token}`);
 
 // Middleware to parse JSON requests
 app.use(bodyParser.json());
