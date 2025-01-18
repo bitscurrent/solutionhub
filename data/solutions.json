@@ -1,0 +1,25 @@
+{
+    "1": {
+      "title": "Real Numbers",
+      "solutions": [
+        {
+          "question": "Prove that √2 is irrational.",
+          "answer": "Assume √2 is rational and can be expressed as a/b in its lowest form..."
+        },
+        {
+          "question": "Find the HCF of 48 and 180.",
+          "answer": "Using the Euclidean algorithm, the HCF is 12."
+        }
+      ]
+    },
+    "2": {
+      "title": "Polynomials",
+      "solutions": [
+        {
+          "question": "Find the zeros of the polynomial x² - 5x + 6.",
+          "answer": "The zeros are 2 and 3."
+        }
+      ]
+    }
+  }
+  
