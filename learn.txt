@@ -1,1 +1,0 @@
-https://api.telegram.org/bot7312204976:AAFdIk3StIokh-L-2zs2XDuiOUtMrGWCu28/getMe
